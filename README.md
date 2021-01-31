@@ -1,6 +1,21 @@
-# Next.js Application Template
+# Next.js Application Template <!-- omit in toc -->
 
 This template has been bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and was extended with some opinionated additions and changes.
+
+- [Template usage](#template-usage)
+- [Customizations on top of `create-next-app`](#customizations-on-top-of-create-next-app)
+  - [`.nvmrc` file](#nvmrc-file)
+  - [Yarn 2 package manager](#yarn-2-package-manager)
+  - [Enforcing strict code style](#enforcing-strict-code-style)
+  - [Styled Components](#styled-components)
+  - [Github workflow](#github-workflow)
+  - [Absolute paths](#absolute-paths)
+  - [VS Code settings](#vs-code-settings)
+    - [Editor settings](#editor-settings)
+    - [Extensions](#extensions)
+    - [Launch settings](#launch-settings)
+- [Learn More](#learn-more)
+- [Deploy on Vercel](#deploy-on-vercel)
 
 ## Template usage
 
