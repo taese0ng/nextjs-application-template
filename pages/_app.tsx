@@ -1,9 +1,14 @@
 import type { AppProps } from 'next/app';
-import 'styles/main.scss';
+import { Normalize } from 'styled-normalize';
+import { GlobalStyles } from 'styles/global-styles';
 
 const App = ({ Component, pageProps }: AppProps) => (
-  // eslint-disable-next-line react/jsx-props-no-spreading
-  <Component {...pageProps} />
+  <>
+    <Normalize />
+    <GlobalStyles />
+    {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+    <Component {...pageProps} />
+  </>
 );
 
 export default App;
